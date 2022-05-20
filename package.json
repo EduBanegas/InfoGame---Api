@@ -1,0 +1,41 @@
+{
+	"name": "infogame---api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node-dev index.ts",
+		"build": "node build/index.js",
+		"tsc": "tsc",
+		"lint": "ts-standard",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EduBanegas/InfoGame-Api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/EduBanegas/InfoGame-Api/issues"
+	},
+	"homepage": "https://github.com/EduBanegas/InfoGame-Api#readme",
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/morgan": "^1.9.3",
+		"ts-node-dev": "^1.1.8",
+		"ts-standard": "^11.0.0",
+		"typescript": "4.6.4"
+	},
+	"dependencies": {
+		"express": "4.18.1",
+		"morgan": "^1.10.0"
+	},
+	"eslintConfig": {
+		"parserOptions": {
+			"project": "./tsconfig.json"
+		},
+		"extends": ["./node_modules/ts-standard/eslintrc.json"]
+	}
+}
